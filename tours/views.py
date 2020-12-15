@@ -2,9 +2,6 @@ from django.http import HttpResponseNotFound, HttpResponseServerError
 from django.views.generic import TemplateView
 
 
-# оба class'а ниже через View почему-то не получается, ошибка появляется
-# при открытии страниц
-
 
 class DepartureView(TemplateView):
     template_name = 'departure.html'
